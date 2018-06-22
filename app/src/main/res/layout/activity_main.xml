@@ -8,8 +8,17 @@
     tools:context=".MainActivity">
 
   <com.uurobot.androidcodeutil.customview.BaseDragZoomImageView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
+      android:id="@+id/bz_image"
+      android:layout_width="400dp"
+      android:layout_height="400dp"
       android:src="@mipmap/home"
       android:scaleType="matrix"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ViewFlipper"
+      android:textAllCaps="false"
+      android:onClick="btnViewFlipper"
+      android:layout_toRightOf="@id/bz_image"/>
 </RelativeLayout>

@@ -6,11 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-  <WebView
-      android:id="@+id/tv_web"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:text=""/>
+
   <!--<com.uurobot.androidcodeutil.customview.BaseDragZoomImageView-->
       <!--android:id="@+id/bz_image"-->
       <!--android:layout_width="400dp"-->
@@ -36,5 +32,9 @@
       <!--android:layout_alignLeft="@id/btn_flipper"-->
       <!--android:onClick="checkNet"-->
       <!--/>-->
-
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="webview"
+      android:onClick="startWebView"/>
 </RelativeLayout>
